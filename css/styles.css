@@ -129,7 +129,8 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 
 display: inline-block;
-padding:32px;
+padding-top: 32px;
+padding-bottom: 32px;
 
 color: var(--header-color);
 }
@@ -154,7 +155,8 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 
 display: inline-block;
-padding: 32px;
+padding-top: 32px;
+padding-bottom: 32px;
 color: var(--top-text-color);
 }
 .header-link-contacts:hover,

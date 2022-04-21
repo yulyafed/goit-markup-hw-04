@@ -179,7 +179,7 @@ align-items: center;
   display: block;
   cursor: pointer;
   margin-right: 10px;
- }
+}
  .current{
 fill: var(--current-color);
 }

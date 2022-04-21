@@ -165,7 +165,7 @@ color: var(--top-text-color);
 .header-link-contacts:focus {
 color:var(--hover-color);
 }
-.current{
+.header-link-contacts.current{
 color: var(--current-color);
 }
 .header-item-contacts + .header-item-contacts{
@@ -180,7 +180,7 @@ align-items: center;
   cursor: pointer;
   margin-right: 10px;
 }
- .current{
+ .header-link-contacts.current .icon-envelope{
 fill: var(--current-color);
 }
 .header-link-contacts:hover .icon-envelope,
@@ -397,15 +397,15 @@ color: var(--bottom-text-color);
 .team-soc-link:focus{
   background-color: #2196F3;
 }
-.current{
-color: var(--current-color);
+.team-soc-link.current{
+background-color: #2196F3;
 }
 .team-soc-link:hover .team-soc-icon,
 .team-soc-link:focus .team-soc-icon{
   fill:#FFFFFF ;
 }
-.current{
-fill: var(--current-color);
+.team-soc-link.current .team-soc-icon{
+fill: #FFFFFF ;
 }
 
 /*---------------clients-------------------*/
@@ -432,14 +432,19 @@ fill: var(--current-color);
 }
 .clients-link:hover,
 .clients-link:focus{
+  border: 1px solid #2196F3;
   background-color:#FFFFFF;
 }
 .clients-link:hover .clients-icon,
 .clients-link:focus .clients-icon{
   fill:#2196F3;
 }
-.current{
-fill: var(--current-color);
+.clients-link.current{
+  border: 1px solid #2196F3;
+  background-color: #FFFFFF;
+}
+.clients-link.current .clients-icon{
+  fill:#2196F3;
 }
 
 /*---------------footer-------------------*/
@@ -487,6 +492,50 @@ color:var(--address-color);
 }
 .mail{
   margin-bottom: 9px;
+}
+.footer-text{
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+margin-bottom: 20px;
+
+color: #FFFFFF;
+}
+.footer-contacts{
+  display: flex;
+  align-items: baseline;
+}
+.social{
+  margin-left: 70px;
+}
+.footer-soc-list{
+  display: flex;
+  justify-content: center;
+  
+}
+.footer-soc-link{
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.1);;
+  justify-content: center;
+  align-items: center;
+}
+.footer-soc-icon{
+  fill: #FFFFFF;
+}
+.footer-soc-link:hover,
+.footer-soc-link:focus{
+  background-color:#2196F3;
+}
+.footer-soc-link.current{
+  background-color:#2196F3;
+}
+.footer-soc-link.current .footer-soc-icon{
+  fill: #FFFFFF;
 }
 
 

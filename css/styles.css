@@ -154,7 +154,8 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 
-display: block;
+display: flex;
+align-items: center;
 padding-top: 32px;
 padding-bottom: 32px;
 
@@ -179,6 +180,9 @@ align-items: center;
   cursor: pointer;
   margin-right: 10px;
  }
+ .current{
+fill: var(--current-color);
+}
 .icon-envelope:hover,
 .icon-envelope:focus{
   fill:var(--hover-color);

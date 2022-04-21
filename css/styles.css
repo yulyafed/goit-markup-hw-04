@@ -312,7 +312,7 @@ color: var(--top-text-color);
 }
 .work-title,
 .team-top-title,
-ee{e
+.clients-title{
 font-family: 'Roboto';
 font-size: 36px;
 line-height: 1.17;
@@ -334,9 +334,6 @@ color: var(--bottom-title-color);
 
 .team{
   background-color:var(--team-fon-color);
-}
-.team-top-title{
-  margin-bottom: 50px;
 }
 .team-list{
   display: flex;
@@ -413,10 +410,37 @@ fill: var(--current-color);
 
 /*---------------clients-------------------*/
 
-.clients-title{
-
+.clients-list{
+  display: flex;
+  justify-content: center;
 }
-
+.clients-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+}
+.clients-item + .clients-item{
+  margin-left: 30px;
+}
+.clients-icon{
+  fill: #AFB1B8;
+}
+.clients-link:hover,
+.clients-link:focus{
+  background-color:#FFFFFF;
+}
+.clients-link:hover .clients-icon,
+.clients-link:focus .clients-icon{
+  fill:#2196F3;
+}
+.current{
+fill: var(--current-color);
+}
 
 /*---------------footer-------------------*/
 

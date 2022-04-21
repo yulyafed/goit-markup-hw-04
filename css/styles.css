@@ -311,7 +311,8 @@ color: var(--top-text-color);
   padding-top: 47px;
 }
 .work-title,
-.team-top-title{
+.team-top-title,
+ee{e
 font-family: 'Roboto';
 font-size: 36px;
 line-height: 1.17;
@@ -348,6 +349,8 @@ color: var(--bottom-title-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   overflow: hidden;
+
+  padding-bottom: 30px;
 }
 .team-img{
   margin-bottom: var(--second-margin);
@@ -370,7 +373,7 @@ line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
 
-margin-bottom: 28px;
+margin-bottom: 16px;
 
 color: var(--bottom-text-color);
 }
@@ -385,18 +388,38 @@ color: var(--bottom-text-color);
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  display: flex;ee
-  background-color: #ffffff;
+  display: flex;
+  background-color: #FFFFFF;
   justify-content: center;
   align-items: center;
-
-  padding-bottom: 42px;
 }
 .team-soc-icon{
   fill: #AFB1B8;
 }
-eeeee
-ee
+.team-soc-link:hover,
+.team-soc-link:focus{
+  background-color: #2196F3;
+}
+.current{
+color: var(--current-color);
+}
+.team-soc-link:hover .team-soc-icon,
+.team-soc-link:focus .team-soc-icon{
+  fill:#FFFFFF ;
+}
+.current{
+fill: var(--current-color);
+}
+
+/*---------------clients-------------------*/
+
+.clients-title{
+
+}
+
+
+/*---------------footer-------------------*/
+
 .footer{
   padding-top: 60px;
   padding-bottom:60px ;

@@ -128,7 +128,7 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 
-display: inline-block;
+display: block;
 padding-top: 32px;
 padding-bottom: 32px;
 
@@ -154,17 +154,43 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 
-display: inline-block;
+display: block;
 padding-top: 32px;
 padding-bottom: 32px;
+
 color: var(--top-text-color);
 }
 .header-link-contacts:hover,
 .header-link-contacts:focus {
 color:var(--hover-color);
 }
+.current{
+color: var(--current-color);
+}
 .header-item-contacts + .header-item-contacts{
 margin-left: 50px;
+}
+.header-item-contacts{
+display: flex;
+align-items: center;
+}
+.icon-envelope{
+  display: block;
+  cursor: pointer;
+  margin-right: 10px;
+ }
+.icon-envelope:hover,
+.icon-envelope:focus{
+  fill:var(--hover-color);
+}
+.icon-smartphone{
+  display: block;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.icon-smartphone:hover,
+.icon-smartphone:focus{
+  fill:var(--hover-color);
 }
 
 /*-----------HERO-----------*/

@@ -179,6 +179,7 @@ align-items: center;
   display: block;
   cursor: pointer;
   margin-right: 10px;
+  fill: #757575;
 }
  .header-link-contacts.current .icon-envelope{
 fill: var(--current-color);
@@ -191,6 +192,7 @@ fill:var(--hover-color);
   display: block;
   cursor: pointer;
   margin-right: 10px;
+  fill: #757575;
 }
 .header-link-contacts:hover .icon-smartphone,
 .header-link-contacts:focus .icon-smartphone{

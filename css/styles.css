@@ -183,12 +183,6 @@ color:var(--hover-color);
 .header-link-contacts:focus .icon-envelope{
 fill:var(--hover-color);
 }
-.header-link-contacts.current{
-color: var(--current-color);
-}
-.header-link-contacts.current .icon-envelope{
-fill: var(--current-color);
-}
 .icon-smartphone{
   display: block;
   cursor: pointer;
@@ -334,12 +328,7 @@ color: var(--bottom-title-color);
 /*---------------team--------------------*/
 
 .team{
-  max-width: 1600px;
-  height: 708px; 
-  margin-left: auto;
-  margin-right: auto;
-
-  background-color:var(--team-fon-color);
+   background-color:var(--team-fon-color);
 }
 .team-list{
   display: flex;
@@ -408,12 +397,6 @@ color: var(--bottom-text-color);
 .team-soc-link:focus .team-soc-icon{
   fill:#FFFFFF ;
 }
-.team-soc-link.current{
-background-color: var(--current-color);
-}
-.team-soc-link.current .team-soc-icon{
-fill: #FFFFFF ;
-}
 
 /*---------------clients-------------------*/
 
@@ -447,24 +430,13 @@ fill: #FFFFFF ;
 .clients-link:focus .clients-icon{
   fill:var(--hover-color);
 }
-.clients-link.current{
-  border: 1px solid var(--current-color);
-  background-color: #FFFFFF;
-}
-.clients-link.current .clients-icon{
-  fill:var(--current-color);
-}
 
 /*---------------footer-------------------*/
 
 .footer{
   padding-top: 60px;
   padding-bottom:60px ;
-  max-width: 1600px;
-  height: 252px; 
-  margin-left: auto;
-  margin-right: auto;
-    
+     
   background-color: var(--footer-color);
 }
 .logo-second{
@@ -543,16 +515,9 @@ color: #FFFFFF;
 .footer-soc-link:focus{
   background-color:var(--hover-color);
 }
-.footer-soc-link.current{
-  background-color:var(--current-color);
-}
 .footer-soc-icon{
   fill: #FFFFFF;
 }
-.footer-soc-link.current .footer-soc-icon{
-  fill: #FFFFFF;
-}
-
 
 /*---------------hero portfolio-------------------*/
 .portfolio-btn-list{
